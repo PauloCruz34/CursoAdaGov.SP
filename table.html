@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <section id="table1">
+            <h2>Tabela de Alunos</h2>
+
+            <table border="1">
+                <thead>  <!-- cabeçalho da tabela -->
+                    <tr> <!-- cria linha na tabela -->
+                        <th> nome </th>
+                        <th>email</th> <!-- th so usa no thead -->
+                        <th>nota</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!-- corpo da tabela -->
+                    <tr>
+                        <td>Mayara</td> <!-- td so dentro do corpo -->
+                        <td>mayara@mayara.com</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr>
+                        <td>Paulo</td>
+                        <td>Paulo@paulo.com</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr>
+                        <td>Terezinha</td>
+                        <td>terezinha@terezinha.com</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="table2">
+            <h2>Tabela Financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descição</th>
+                        <th>Vallor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2018</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>25,00</td>
+                    </tr>
+
+                    <tr>
+                        <!-- <td>15/06/2018</td>   apago essa linha pq ela ja esta descrita na tabela acima -->
+                        <td>despesa</td>
+                        <td>jantar</td>
+                        <td>35,00</td>
+                    </tr>
+                </tbody>
+        </table>
+            
+        </section>
+    </main>
+</body>
+</html>
