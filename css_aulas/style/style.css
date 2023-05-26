@@ -1,10 +1,10 @@
-*{
+*{  /* formata geral */
     margin: 0;
     padding: 0;
 }
 h1{
 
-    color: #a00ff0;    
+    color: #a00ff0;    /* fonte hexadecimal */
     font-size: 90px;
     background-color: black;
     font-weight: 300px;
@@ -13,18 +13,18 @@ h1{
     text-align: center;
 }
 
-.bg{
-    height: 500px;
-    width: 100%;
+.bg{   /* classe se marca com ponto+onome da classe */
+    height: 500px; /* altura */
+    width: 100%; /* largura */
     background-color: #a00ff0;
     background-image: url(https://images.unsplash.com/photo-1480099225005-2513c8947aec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2NydW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
-    background-size: cover;
+    background-size: cover; /* cobre a div com a imagem */
     background-repeat: no-repeat; /* faz a imagem nao se repetir */
     background-attachment: fixed; /* faz o texto rolar por cima da imagem */
 }
 
 p{
     font-size: 30px;
-    text-align: justify;
+    text-align: justify; /* texto justificado */
     text-indent: 90px; /* recuo do parágrafo, so funciona na primeira linha */
 }
