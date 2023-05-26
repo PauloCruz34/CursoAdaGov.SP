@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+      <form action="">
+        <div>
+            <label for="texto">Nome</label>  <!-- coloca nome onde vai ser preenchidoo o input do formulário -->
+            <input type="text" id=" texto" placeholder="informe o input" name="nome"> <!-- placeholder da uma sugestão do que deve ser preenchido --> <!-- tag value gera um ore preenchimento na caixa de texto -->
+        </div>
+            <br>
+        <div>
+            <label for="senha">senha</label>
+            <input type="password" id="senha" name="senha"> <!-- cria caixa criptografada -->
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="Data" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="datanascimento">Data de nascimento</label> <!-- ja traz o formato da data nacional -->
+            <input type="date" id="Hora" name="data">
+        </div>
+        <br>
+        <div>
+            <label for="hora">Hora</label> <!-- input de hora -->
+            <input type="time" id="hora" name="hora">
+        </div>
+        <br>
+        <div>
+            <label for="number">number</label> <!-- input somente numero -->
+            <input type="number" id="number" name="number">
+        </div>
+        <br>
+        <div>
+            <label for="file">file</label> <!-- opção de upload-->
+            <input type="file" id="file" name="file">
+        </div>
+        <br>
+        <div>
+            <label for="url">url</label> <!-- input de link-->
+            <input type="url" id="ulr" name="url">
+        </div>
+        <br>
+        <div>
+            <label for="coloe">color</label> <!-- cria paleta de cor -->
+            <input type="color" id="cor" name="color">
+        </div>
+        <br>
+        <div>
+            <label for="range">range</label> <!-- cria range -->
+            <input type="range" id="range" name="range">
+        </div>
+        <br>
+        <div>
+            <label for="checkbox">check</label> <!-- cria check box -->
+            <input type="checkbox" id="check" name="check">
+        </div>
+        <br>
+        <div>
+            <label for="radio">radio</label> <!--cria seleçao unica -->
+            <input type="radio" id="radio" name="radio">
+        </div>
+            <br>
+        <div>
+            <label for="reset">reset</label> <!-- reseta formulario-->
+            <input type="reset" id="reset" name="reset">
+        </div>
+        <br>
+        <div>
+            <label for="submit">submit</label> <!-- cria botao sbmeter enviar  -->
+            <input type="submit" id="submit" name="submit">
+        </div>
+            <br>
+        <textarea name="paulo" id="paulo" cols="30" rows="10"></textarea> <!-- cria caixa de texto grande -->
+            <br>
+        <div>
+            <br>
+            <select name="select" id="select"> <!-- vria caica de seleção -->
+                <option value="" disabled selected>selecione uma das opções</option> <!-- quero que comece selecionada mas desabilitada -->
+                <option value="receita">receita</option>
+                <option value="valoe">Valor</option>
+                <option value="transferencia">Transferencia</option>
+            </select>
+        </div>
+      </form>  
+    </main>
+</body>
+</html>
