@@ -1,6 +1,7 @@
 *{  /* formata geral */
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* preserva as dimensoes da caixa */
 }
 
 :root{
@@ -51,4 +52,47 @@ a:visited{
 
 a:hover{
     color: blue;
+}
+
+.tabela, td,th {
+    border: 1px solid red;
+}
+
+.tabela tr:first-child{
+    background-color: #555;
+    color: #fff}
+
+.tabela tr :nth-child(2n+1){
+    background-color: aquamarine;
+}
+
+.box{
+    width: 10rem; /* altura */
+    height: 20rem;  /* largura */
+    border: 1px solid #555;
+    background-color: #a00ff0;
+    /* display: inline-block; /* deixa alinhado comm outros elementos inline */ 
+    padding: 15px ; /* atua dentro do elemento */
+    border-radius: 2rem; /* arredonda as bordas */
+    position: static; /* nenhuma coordenada faz efeito */
+    padding-top: 30rem;
+    display: flex ;
+    flex-wrap: wrap;
+}
+/* none tira o elemento da tela */
+
+.box:nth-child(1){
+    position: relative; /*  absolut ele se matem no local de alocação, se nao tiver coordenadas ele vao para o começo da tela */
+    padding-top: 30px;
+    float: right;
+
+
+}   
+
+nav.menu{
+    background-color: aqua;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
 }
