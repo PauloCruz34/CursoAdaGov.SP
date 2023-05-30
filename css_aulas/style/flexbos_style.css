@@ -50,12 +50,12 @@ p {
     justify-content: flex-start;
     /* align-items: center; */
     align-content: center;
-    gap: 2rem 5rem;
+    gap: 2rem 5rem; /* trabalha como se fosse um padding, mas nos itens diretamente */
 }
 
 .box {
     min-height: 10rem;
-    min-width: 20rem;
+    min-width: 20rem;  /* quando chega no minimo ela quebra para a linha de baixo */
     padding: 1.5rem;
     border: 10px solid red;
     border-radius: 0.4rem;
@@ -63,9 +63,9 @@ p {
     color: #fff;
     font-size: 4rem;
     order: 10;
-    /* flex-basis: calc(50% - 5rem); */
+    /* flex-basis: calc(50% - 5rem); */  /* é bomm quando quero trabalhar com tamanho fixo */
     flex: 1;
-
+   
     /* text-align: center; */
     display: flex;
     gap: 0 2rem;
@@ -74,18 +74,18 @@ p {
 }
 
 .box:nth-child(1) {
-    order: 1;
+    order: 1;    /* muda a ordem de um unico item da box */
 }
 
 .box:nth-child(2) {
     order: 2;
-    flex: 2;
+    flex: 2; /* quando tiver espaço que so cabe 2 ele fica maiso ou menor dependendo da proporção */
 }
 
-.box:nth-child(7) {
+.box:nth-child(7) {  /* encaixa o 7 no lugar 3 */
     order: 3;
 }
 
 .box p, button {
-    font-size: 4rem;
+    font-size: 2rem;
 }
