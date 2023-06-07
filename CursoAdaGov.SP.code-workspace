@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "CursoAdaGov.SP",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "desafio ADA"
+	}
+}
